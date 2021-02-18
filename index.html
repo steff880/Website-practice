@@ -12,13 +12,14 @@
 <body>
     <header>
         <a href="#" class="logo">Food<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
-            <li><a href="#banner">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#expert">Expert</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
         </ul>
     </header>
     <section class="banner" id="banner">
@@ -154,6 +155,77 @@
             </div>
         </div>
     </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">They <span>S</span>aid About Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/testi1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae dignissimos
+                        incidunt facere vitae necessitatibus quas nostrum illo reprehenderit, sit, veniam, ratione eum
+                        id quasi nam quidem. Sit, quod. Vel, rerum tenetur aspernatur omnis beatae ad asperiores esse
+                        praesentium veniam.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/testi2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae dignissimos
+                        incidunt facere vitae necessitatibus quas nostrum illo reprehenderit, sit, veniam, ratione eum
+                        id quasi nam quidem. Sit, quod. Vel, rerum tenetur aspernatur omnis beatae ad asperiores esse
+                        praesentium veniam.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/testi3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae dignissimos
+                        incidunt facere vitae necessitatibus quas nostrum illo reprehenderit, sit, veniam, ratione eum
+                        id quasi nam quidem. Sit, quod. Vel, rerum tenetur aspernatur omnis beatae ad asperiores esse
+                        praesentium veniam.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Name"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Copyright 2020 <a href="">Online Tutorials.</a> All Right Reserved</p>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
